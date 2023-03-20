@@ -11,7 +11,8 @@ function App() {
 
     const data = await response.json();
 
-    setArtist(data);
+    setArtist(data.data);
+    
   };
 
   useEffect (() => {
