@@ -6,12 +6,12 @@ import Search from './components/Search';
 function App() {
   const [artist,setArtist] = useState(null);
 
-  const getArt = async (searchTerm) => {
+  const getArt = async (searchterm) => {
     const response = await fetch(`https://api.artic.edu/api/v1/artworks/search?q=${searchterm}`);
 
     const data = await response.json();
 
-    setArt(data);
+    setArtist(data);
   };
 
   useEffect (() => {
