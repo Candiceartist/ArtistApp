@@ -7,17 +7,22 @@ function App() {
   const [artist,setArtist] = useState(null);
 
   const getArt = async (searchTerm) => {
-    const response =await fetch(`https://api.artic.edu/api/v1/artworks/search?q=${searchterm}`)
+    const response = await fetch(`https://api.artic.edu/api/v1/artworks/search?q=${searchterm}`);
 
-  }
+    const data = await response.json();
 
-  
-  
+    setArt(data);
+  };
+
+  useEffect (() => {
+    getArt("");
+  }, []);
+
   return (
     <div className="App">
     <h1>Hello World</h1>
-    <Search />
-    <Display/>
+    <Search artsearch={getArt}/>
+    <Display artist={artist}/>
     </div>
   );
 }
