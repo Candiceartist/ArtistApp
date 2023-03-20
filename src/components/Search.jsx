@@ -2,7 +2,11 @@ import React from "react";
 import { useState, useEffect } from 'react';
 
 function Search (props) {
-     const [searchData, setSearchData] = useState({searchterm:""})
+     const [searchData, setsearchData] = useState({searchterm:""});
+
+     const handleChange = (event)=> {
+        setsearchData({...searchData, [event.target.value]: event.target.value});
+     }
 
 
     return (
