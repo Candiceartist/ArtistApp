@@ -96,3 +96,7 @@ h1 {
 .bold {
   font-weight: 700;
 }
+
+.app.warm {
+  background-image: url('https://i.pinimg.com/originals/49/35/d8/4935d887e9b5c7872ed36cd627fa77e2.jpg');
+}

@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') :'app'}>
+    <div className='app'>
       <div className="search">
         <input
           value={location}
@@ -27,6 +27,9 @@ function App() {
           placeholder='Enter Location'
           type="text" />
       </div>
+
+    
+
       <div className="container">
         <div className="top">
           <div className="location">
@@ -60,6 +63,8 @@ function App() {
 
 
       </div>
+      
+    
     </div>
   );
 }
