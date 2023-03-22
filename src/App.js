@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import Activities from './components/Activities'
 
 function App() {
   const [data, setData] = useState({})
@@ -51,6 +52,10 @@ function App() {
           
           <div className="temp">
             {data.main ? <h1>{data.main.temp.toFixed()}°F</h1> : null}
+          </div>
+          <div className="activity">
+            <p>What to do today</p>
+            <Activities />
           </div>
           <div className="description">
             {data.weather ? <p>{data.weather[0].main}</p> : null}

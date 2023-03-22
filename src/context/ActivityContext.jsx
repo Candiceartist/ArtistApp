@@ -1,36 +1,31 @@
 import { createContext, useState } from "react";
 
-const StudentContext = createContext();
+const ActivityContext = createContext();
 
 export const Provider = ({ children }) => {
    
-    const [AcitvityData, setActivityData] = useState({
-     activities: [
-        {
-          place:"",
-          what:"",
-          pic:"",
-          day:"",
-    
-        },
-
-
-
-
-
-          
-    
-
-
-
-
-
-
-
-     ]        
+    const [ActivityData, setActivityData] = useState({
+     activity: [
+           {
+                place:"",
+                what:"",
+                pic:"",
+                day:"",
+                pic:"",
+            },
+            {
+                place:"",
+                what:"",
+                pic:"",
+                day:"",
+                pic:"",
+            },
+            
+            
+        ]        
     })
     return (
-      <StudentContext.Provider value={obj}>{children}</StudentContext.Provider>
+      <ActivityContext.Provider value={Object}>{children}</ActivityContext.Provider>
     );  
 };  
 
