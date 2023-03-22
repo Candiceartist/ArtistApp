@@ -17,8 +17,20 @@ function App() {
     }
   }
 
+  const dateBuilder = (d) => {
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    let day = days[d.getDay()];
+    let date = d.getDate();
+    let month = months[d.getMonth()];
+    let year = d.getFullYear();
+
+    return `${day} ${date} ${month} ${year}`
+  }
+
   return (
-    <div className='app'>
+    <div className='app'ls >
       <div className="search">
         <input
           value={location}
@@ -35,6 +47,8 @@ function App() {
           <div className="location">
             <p>{data.name}</p>
           </div>
+          <div className="date">{dateBuilder(new Date())}</div>
+          
           <div className="temp">
             {data.main ? <h1>{data.main.temp.toFixed()}°F</h1> : null}
           </div>
