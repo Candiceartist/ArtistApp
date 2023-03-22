@@ -18,12 +18,12 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') :'app'}>
       <div className="search">
         <input
           value={location}
           onChange={event => setLocation(event.target.value)}
-          onKeyPress={searchLocation}
+          onKeyDown={searchLocation}
           placeholder='Enter Location'
           type="text" />
       </div>
