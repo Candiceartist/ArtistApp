@@ -2,14 +2,18 @@ import React from 'react'
 import { useContext } from 'react'
 import ActivityContext from '../context/ActivityContext'
 
-function Activities() {
-  const today = {useContext,ActivityContext}
-    
+function Activities(props) {
+
+const {activityData} = useContext(ActivityContext)
+    console.log(activityData)
   return (
     <div className='dailyActs'>
-      {Object.keys(today).map((key) => {
-       <h2>Where:{key.activity.name} </h2>
-      })}
+      
+      {activityData.map((key) => {
+     return(
+       <h2>{key.name}</h2>
+      ) })}
+      
     </div>
   )
   
@@ -17,3 +21,5 @@ function Activities() {
 }
 
 export default Activities
+
+
