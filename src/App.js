@@ -54,7 +54,7 @@ function App() {
             {data.main ? <h1>{data.main.temp.toFixed()}°F</h1> : null}
           </div>
           <div className="activity">
-            <p>What to do today</p>
+            <p>What to do today!</p>
             <Activities />
           </div>
           <div className="description">

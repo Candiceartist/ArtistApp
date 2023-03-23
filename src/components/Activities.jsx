@@ -3,14 +3,17 @@ import { useContext } from 'react'
 import ActivityContext from '../context/ActivityContext'
 
 function Activities() {
-    const todaysActivity = useContext(ActivityContext);
-
+  const today = {useContext,ActivityContext}
+    
   return (
-    <div>Parent
-        <h2>Where: </h2>
-        <h3>What to do: </h3>
+    <div className='dailyActs'>
+      {Object.keys(today).map((key) => {
+       <h2>Where:{key.activity.name} </h2>
+      })}
     </div>
   )
+  
+
 }
 
 export default Activities
