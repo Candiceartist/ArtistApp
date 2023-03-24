@@ -31,6 +31,9 @@ function App() {
    
     return `${day} ${date} ${month} ${year}`
   }
+  let weekday = (d) => {
+    let date = [d.getDate()]
+  }
 
 
   return (
@@ -58,7 +61,8 @@ function App() {
           </div>
           <div className="activity">
             <p>What to do today!</p>
-            <Activities weekday={dateBuilder(day)}/>
+            <Activities today={weekday}/>
+    
           </div>
           <div className="description">
             {data.weather ? <p>{data.weather[0].main}</p> : null}

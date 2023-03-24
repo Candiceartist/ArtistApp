@@ -23,6 +23,41 @@ export const Provider = ({ children }) => {
                 
             },   
             {
+                name:"Bronx Zoo",
+                address:"Bronx River Parkway at Fordham Rd Bronx, NY 10460",
+                what:"the largest urban zoo in the United States. Its woods, streams and parklands encompass 265 acres. Within this enclave live more than 4,000 animals representing some 1,000 species.",
+                pic:"https://www.nyc-arts.org/wp-content/uploads/2011/03/Bronx_Zoo_001.jpg",
+                day:"Wednesday"
+            },
+            {
+                name:"Museum of Arts and Design",
+                address:"Two Columbus Circle (between Eight Ave and Broadway) New York, NY 10019",
+                what:"MAD focuses on contemporary creativity and the ways in which artists and designers from around the world transform materials through processes ranging from the artisanal to the digital.",
+                pic:"",
+                day:"Thursday"
+            },
+            {
+                name:"",
+                address:"",
+                what:"",
+                pic:"",
+                day:""
+            },
+            {
+                name:"",
+                address:"",
+                what:"",
+                pic:"",
+                day:""
+            },
+            {
+                name:"",
+                address:"",
+                what:"",
+                pic:"",
+                day:""
+            },
+            {
                 name:"",
                 address:"",
                 what:"",
