@@ -7,11 +7,6 @@ function Activities(today) {
 
   const {activityData} = useContext(ActivityContext)
     console.log(activityData)
-
-  const todaysActivity = {activityData}.filter(key.day => {
-    return key.day === today
-    })  
-    
   
    return (
     <div className='dailyActs'>
