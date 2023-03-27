@@ -20,7 +20,8 @@ export const Provider = ({ children }) => {
                 address:"75 Stuyvesant Place at Wall St Staten Island, NY 10301",
                 what:"Few museums embrace a collection as eclectic as this: an assortment of hats, paintings by Marc Chagall and 500,000 insects. One can find these plus 2 million more artifacts and specimens at the Staten Island Museum of the Institute of Arts and Sciences. The museum was founded in 1881, making it one of the oldest cultural organizations in New York City.",
                 pic:"https://www.nyc-arts.org/wp-content/uploads/2011/03/1-_Pre-Construction_Building_A.jpg",
-                day:"Tuesday"
+                day:"Tuesday",
+                link:"https://www.statenislandmuseum.org"
                 
             },   
             {
