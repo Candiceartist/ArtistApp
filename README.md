@@ -1,5 +1,4 @@
-Artist App, 
-the museum goers companion. 
-Look up artist on while strolling through your favorite museums. 
-Search by artist name or by wart work and find huseum dscriptioins. 
-Be a tourist in your own town on a budget by visiting museusm on there free or discounted entry days. 
+What to do today App, 
+Be a tourist in your own town and search fun things to do today.
+Know the weather to learn whether you should bring an umbrella or your shades as you browse the town.
+Events or museums are free or pay as you wish.
