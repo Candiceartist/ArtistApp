@@ -15,7 +15,10 @@ function Activities(today) {
       
       {activityData.map((key) => {
      return(
-      <div>
+      <div className='museBox'>
+        <div className='imgBox'>
+          <img className='museimg' src={key.pic}/>
+        </div>
       <div className='textBox'>
        <h2>{key.name}</h2>
        <h4>{key.address}</h4>
