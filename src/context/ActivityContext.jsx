@@ -46,12 +46,12 @@ export const Provider = ({ children }) => {
                 what:"",
                 pic:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/15/7f/71/every-story.jpg?w=1200&h=-1&s=1",
                 day:"",
-                link:"https://madmuseum.org"
+                link:"https://folkartmuseum.org"
             },
             {
                 name:"",
                 address:"",
-                what:"",
+                what:"With a mission to create inspiring encounters with art that expand the ways we see ourselves, the world and its possibilities, the Brooklyn Museum is where great art and courageous conversations are catalysts for a more connected, civic, and empathetic world.",
                 pic:"",
                 day:""
             },
