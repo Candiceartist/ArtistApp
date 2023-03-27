@@ -37,14 +37,16 @@ export const Provider = ({ children }) => {
                 address:"Two Columbus Circle (between Eight Ave and Broadway) New York, NY 10019",
                 what:"MAD focuses on contemporary creativity and the ways in which artists and designers from around the world transform materials through processes ranging from the artisanal to the digital.",
                 pic:"https://aaqeastend.com/wp-content/uploads/2016/09/MAD-Exterior-Late-Day-23308.jpg",
-                day:"Thursday"
+                day:"Thursday",
+                link:"https://madmuseum.org"
             },
             {
                 name:"American Folk Art Museum",
                 address:"2 Lincoln Square (Columbus Avenue at 66th Street New York, NY 10023)",
                 what:"",
                 pic:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/15/7f/71/every-story.jpg?w=1200&h=-1&s=1",
-                day:""
+                day:"",
+                link:"https://madmuseum.org"
             },
             {
                 name:"",
