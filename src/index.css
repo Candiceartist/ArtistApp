@@ -20,6 +20,11 @@ a {
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
 }
+a:hover {
+  color: rgb(238, 87, 87);
+}
+
+
 
 p {
   font-size: 1.6rem;
