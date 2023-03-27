@@ -56,7 +56,7 @@ export const Provider = ({ children }) => {
                 day:""
             },
             {
-                name:"",
+                name:"The Cloisters ",
                 address:"",
                 what:"",
                 pic:"",
