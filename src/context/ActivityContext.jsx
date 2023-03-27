@@ -43,7 +43,7 @@ export const Provider = ({ children }) => {
                 name:"American Folk Art Museum",
                 address:"2 Lincoln Square (Columbus Avenue at 66th Street New York, NY 10023)",
                 what:"",
-                pic:"",
+                pic:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/15/7f/71/every-story.jpg?w=1200&h=-1&s=1",
                 day:""
             },
             {
