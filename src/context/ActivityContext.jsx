@@ -29,7 +29,8 @@ export const Provider = ({ children }) => {
                 address:"Bronx River Parkway at Fordham Rd Bronx, NY 10460",
                 what:"the largest urban zoo in the United States. Its woods, streams and parklands encompass 265 acres. Within this enclave live more than 4,000 animals representing some 1,000 species.",
                 pic:"https://www.nyc-arts.org/wp-content/uploads/2011/03/Bronx_Zoo_001.jpg",
-                day:"Wednesday"
+                day:"Wednesday",
+                link:"https://bronxzoo.com"
             },
             {
                 name:"Museum of Arts and Design",
