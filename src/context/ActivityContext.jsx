@@ -49,7 +49,7 @@ export const Provider = ({ children }) => {
                 link:"https://folkartmuseum.org"
             },
             {
-                name:"",
+                name:"Brooklyn Museum",
                 address:"200 Eastern Parkway at Washington Avenue Brooklyn, NY 11238",
                 what:"With a mission to create inspiring encounters with art that expand the ways we see ourselves, the world and its possibilities, the Brooklyn Museum is where great art and courageous conversations are catalysts for a more connected, civic, and empathetic world.",
                 pic:"",
