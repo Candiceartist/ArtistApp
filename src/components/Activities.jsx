@@ -1,5 +1,5 @@
 import React from 'react'
-import { useContext } from 'react'
+import { useContext,useEffect, useState } from 'react'
 import ActivityContext from '../context/ActivityContext'
 
 function Activities(today) {
@@ -7,6 +7,7 @@ function Activities(today) {
 
   const {activityData} = useContext(ActivityContext)
     console.log(activityData)
+
   
    return (
     <div className='dailyActs'>
