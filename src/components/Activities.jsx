@@ -8,7 +8,8 @@ function Activities(today) {
   const {activityData} = useContext(ActivityContext)
     console.log(activityData)
 
-  
+  const [filteredActivites,setFilteredActivities] = useState({activityData})
+
    return (
     <div className='dailyActs'>
       
