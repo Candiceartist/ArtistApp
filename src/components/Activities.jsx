@@ -22,6 +22,7 @@ function Activities(today) {
       <div className='textBox'>
        <h2>{key.name}</h2>
        <h4>{key.address}</h4>
+       < a href={key.link}>{key.link}</a>
        </div>
        </div>
       ) })}
