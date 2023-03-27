@@ -121,6 +121,8 @@ h1 {
 
 .imgBox {
   width: 200px;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .museimg {
