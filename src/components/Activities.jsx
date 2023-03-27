@@ -9,6 +9,21 @@ function Activities(today) {
     console.log(activityData)
 
   const [filteredActivites,setFilteredActivities] = useState({activityData})
+  const [daysactive, setDaysactive] = useState()
+  
+  const daysactiv = Array.from(
+    new Set(({activityData}).map(({activityData}) => ({activityData}).day))
+  )
+
+  useEffect(() => {
+    setFilteredActivities(
+      ({activityData}).filter(({activityData}) => {
+        return (
+          (!daysactive || daysactive === ({activityData}).day )
+        )
+      })
+    )
+  })
 
    return (
     <div className='dailyActs'>
