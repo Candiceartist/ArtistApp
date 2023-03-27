@@ -52,18 +52,18 @@ export const Provider = ({ children }) => {
                 name:"Brooklyn Museum",
                 address:"200 Eastern Parkway at Washington Avenue Brooklyn, NY 11238",
                 what:"With a mission to create inspiring encounters with art that expand the ways we see ourselves, the world and its possibilities, the Brooklyn Museum is where great art and courageous conversations are catalysts for a more connected, civic, and empathetic world.",
-                pic:"https://cdn.vox-cdn.com/thumbor/KP2M2isDRY-mIIVWujGCep0sofc=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9570151/shutterstock_142124719.jpg",
+                pic:"https://d1lfxha3ugu3d4.cloudfront.net/about/images/Facility_Rental_2021_S06_BEEi149_SL3_General_Use_JPEG_2000w.jpg",
                 day:""
             },
             {
                 name:"The Cloisters ",
-                address:"",
+                address:"Fort Tryon Park 99 Maragaret Corbin Drive New York, NY  10040",
                 what:"",
-                pic:"",
+                pic:"https://cdn.vox-cdn.com/thumbor/KP2M2isDRY-mIIVWujGCep0sofc=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9570151/shutterstock_142124719.jpg",
                 day:""
             },
             {
-                name:"",
+                name:"Metropolitan Museum of Art",
                 address:"",
                 what:"",
                 pic:"",
