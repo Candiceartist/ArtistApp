@@ -33,12 +33,12 @@ export const Provider = ({ children }) => {
                 name:"Museum of Arts and Design",
                 address:"Two Columbus Circle (between Eight Ave and Broadway) New York, NY 10019",
                 what:"MAD focuses on contemporary creativity and the ways in which artists and designers from around the world transform materials through processes ranging from the artisanal to the digital.",
-                pic:"",
+                pic:"https://aaqeastend.com/wp-content/uploads/2016/09/MAD-Exterior-Late-Day-23308.jpg",
                 day:"Thursday"
             },
             {
-                name:"",
-                address:"",
+                name:"American Folk Art Museum",
+                address:"2 Lincoln Square (Columbus Avenue at 66th Street New York, NY 10023)",
                 what:"",
                 pic:"",
                 day:""
