@@ -52,7 +52,7 @@ export const Provider = ({ children }) => {
                 name:"Brooklyn Museum",
                 address:"200 Eastern Parkway at Washington Avenue Brooklyn, NY 11238",
                 what:"With a mission to create inspiring encounters with art that expand the ways we see ourselves, the world and its possibilities, the Brooklyn Museum is where great art and courageous conversations are catalysts for a more connected, civic, and empathetic world.",
-                pic:"",
+                pic:"https://cdn.vox-cdn.com/thumbor/KP2M2isDRY-mIIVWujGCep0sofc=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9570151/shutterstock_142124719.jpg",
                 day:""
             },
             {
